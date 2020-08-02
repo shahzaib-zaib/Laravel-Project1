@@ -11,4 +11,12 @@ class HomeController extends Controller
     {
         return view("Home.Index");
     }
+    public function About()
+    {
+        return view("Home.About");
+    }
+    public function Contact()
+    {
+        return view("Home.Contact");
+    }
 }

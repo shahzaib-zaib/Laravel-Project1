@@ -24,3 +24,8 @@ route::get('/msg', function () {
 route::get('/mypage', function () {
     return "This is another second page";
 });
+
+route::get("/Home", "HomeController@Index");
+route::get("/About", "HomeController@About");
+route::get("/Contact", "HomeController@Contact");
+
