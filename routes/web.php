@@ -18,9 +18,9 @@ Route::get('/', function () {
 });
 
 route::get('/msg', function () {
-    return "This is anoyher page";
+    return "This is another page";
 });
 
 route::get('/mypage', function () {
-    return "This is anoyher second page";
+    return "This is another second page";
 });
