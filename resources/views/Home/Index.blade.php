@@ -8,9 +8,14 @@
 <body>
     <h1>Student Name</h1>
     <ul>
-        <li>{{ $Stuname1 }}</li>
-        <li>{{ $Stuname2 }}</li>
-        <li>{{ $Stuname3 }}</li>
+        <li>{{ $fruit[0] }}</li>
+        <li>{{ $fruit[1] }}</li>
+        <li>{{ $fruit[2] }}</li>
+    </ul>
+    <ul>
+        <li>{{ $Sports[0] }}</li>
+        <li>{{ $Sports[1] }}</li>
+        <li>{{ $Sports[2] }}</li>
     </ul>
 </body>
 </html>

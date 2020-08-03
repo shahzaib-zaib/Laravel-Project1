@@ -10,7 +10,8 @@ class HomeController extends Controller
     public function Index()
     {
         $a['fruit'] = ["Mango", "Apple", "Banana"];
-        return view("Home.Index", ["Stuname1" => "Amna", "Stuname2" => "Maheen", "Stuname3" => "Sara"]);
+        $a['Sports'] = ['Cricket', 'Hockey', 'Baseball'];
+        return view("Home.Index", $a);
     }
     public function About()
     {
