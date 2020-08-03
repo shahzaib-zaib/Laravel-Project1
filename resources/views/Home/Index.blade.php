@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is Home Page</h1>
-    <h3>Welcome on Home Page</h3>
+    <h1>Student Name</h1>
+    <ul>
+        <li>{{ $Stuname1 }}</li>
+        <li>{{ $Stuname2 }}</li>
+        <li>{{ $Stuname3 }}</li>
+    </ul>
 </body>
 </html>
