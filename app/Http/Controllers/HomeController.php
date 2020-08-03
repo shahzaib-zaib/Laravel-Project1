@@ -9,7 +9,7 @@ class HomeController extends Controller
     //Action Methods
     public function Index()
     {
-        return view("Home.Index");
+        return view("Home.Index", ["Stuname" => "Amna", "Stuname2" => "Maheen", "Stuname3" => "Sara"]);
     }
     public function About()
     {
