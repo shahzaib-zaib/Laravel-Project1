@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Student Name</h1>
-    <ul>
+    <h1>Message => {{ $msg }}</h1>
+    {{--<ul>
         <li>{{ $fruit[0] }}</li>
         <li>{{ $fruit[1] }}</li>
         <li>{{ $fruit[2] }}</li>
@@ -16,6 +17,6 @@
         <li>{{ $Sports[0] }}</li>
         <li>{{ $Sports[1] }}</li>
         <li>{{ $Sports[2] }}</li>
-    </ul>
+    </ul> --}}
 </body>
 </html>
