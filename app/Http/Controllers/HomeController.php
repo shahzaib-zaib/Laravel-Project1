@@ -16,8 +16,16 @@ class HomeController extends Controller
 
 
 
-        $msg = "This is message from Controller";
-        return view("Home.Index", compact('msg'));
+        //$msg = "This is message from Controller";
+        //$name = "Maheen";
+        //$fruit = array('Apple', 'mango', 'Banana');
+        //return view("Home.Index", compact('msg', 'name', 'fruit'));
+
+
+
+        // with functions
+        $msg = "This is message from Controller using with function";
+        return view("Home.Index")->with('message',$msg);
     }
     public function About()
     {
