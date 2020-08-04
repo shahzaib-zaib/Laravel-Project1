@@ -14,8 +14,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     </head>
 <body>
-    <!--Section: Contact v.2-->
-<section class="mb-4">
+    <div class="container">
+        <!--Section: Contact v.2-->
+    <section class="mb-4">
 
 <!--Section heading-->
 <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
@@ -110,5 +111,6 @@
 
 </section>
 <!--Section: Contact v.2-->
+    </div>
 </body>
 </html>

@@ -10,17 +10,22 @@ class HomeController extends Controller
     public function Index()
     {
 
+        $msg = "This is message from Controller using compact function";
+        return view("Home.Index", compact("msg"));
+
+
+
+        // name direct
         // $a['fruit'] = ["Mango", "Apple", "Banana"];
         // $a['Sports'] = ['Cricket', 'Hockey', 'Baseball'];
         // return view("Home.Index", $a);
 
 
-
+        // compact function
         //$msg = "This is message from Controller";
         //$name = "Maheen";
         //$fruit = array('Apple', 'mango', 'Banana');
         //return view("Home.Index", compact('msg', 'name', 'fruit'));
-
 
 
         // with functions
