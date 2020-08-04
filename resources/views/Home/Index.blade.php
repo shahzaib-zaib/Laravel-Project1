@@ -6,9 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Student Name</h1>
-    <h1>Message => {{ $message }}</h1>
 
+
+
+
+{{--<h1>Student Name</h1>
+    <h1>Message => {{ $message }}</h1>--}}
 
 
 

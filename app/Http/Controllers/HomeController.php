@@ -24,8 +24,8 @@ class HomeController extends Controller
 
 
         // with functions
-        $msg = "This is message from Controller using with function";
-        return view("Home.Index")->with('message',$msg);
+        //$msg = "This is message from Controller using with function";
+        //return view("Home.Index")->with('message',$msg);
     }
     public function About()
     {

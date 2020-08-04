@@ -17,15 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-route::get('/msg', function () {
+Route::get('/msg', function () {
     return "This is another page";
 });
 
-route::get('/mypage', function () {
+Route::get('/mypage', function () {
     return "This is another second page";
 });
 
-route::get("/Home", "HomeController@Index");
-route::get("/About", "HomeController@About");
-route::get("/Contact", "HomeController@Contact");
+Route::get("/Home", "HomeController@Index");
+Route::get("/About", "HomeController@About");
+Route::get("/Contact", "HomeController@Contact");
 
