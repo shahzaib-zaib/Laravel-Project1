@@ -35,14 +35,17 @@ class HomeController extends Controller
         // with functions
         //$msg = "This is message from Controller using with function";
         //return view("Home.Index")->with('message',$msg);
+
+
+        return view("Home.Index");
+    }
+    public function Product()
+    {
+        return view("Home.Product");
     }
     public function About()
     {
         return view("Home.About");
-    }
-    public function Product()
-    {
-        return view("Home.Contact");
     }
     public function Contact()
     {
@@ -50,6 +53,6 @@ class HomeController extends Controller
     }
     public function Complain()
     {
-        return view("Home.Contact");
+        return view("Home.Complain");
     }
 }

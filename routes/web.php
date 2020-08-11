@@ -26,6 +26,9 @@ Route::get('/mypage', function () {
 });
 
 Route::get("/Home", "HomeController@Index");
+Route::get("/Product", "HomeController@Product");
 Route::get("/About", "HomeController@About");
 Route::get("/Contact", "HomeController@Contact");
+Route::get("/Complain", "HomeController@Complain");
+
 
