@@ -10,8 +10,12 @@ class HomeController extends Controller
     public function Index()
     {
 
-        $msg = "This is message from Controller using compact function";
-        return view("Home.Index", compact("msg"));
+
+
+
+
+        // $msg = "This is message from Controller using compact function";
+        // return view("Home.Index", compact("msg"));
 
 
 
@@ -36,7 +40,15 @@ class HomeController extends Controller
     {
         return view("Home.About");
     }
+    public function Product()
+    {
+        return view("Home.Contact");
+    }
     public function Contact()
+    {
+        return view("Home.Contact");
+    }
+    public function Complain()
     {
         return view("Home.Contact");
     }
