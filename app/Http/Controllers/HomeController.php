@@ -45,7 +45,10 @@ class HomeController extends Controller
     }
     public function About()
     {
-        return view("Home.About");
+        $msg = "This is message from Controller";
+        $name = "Maheen";
+        $fruit = array('Apple', 'mango', 'Banana');
+        return view("Home.About", compact('msg', 'name', 'fruit'));
     }
     public function Contact()
     {

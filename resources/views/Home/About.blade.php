@@ -10,7 +10,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>About Page</h1>
+    <h1>{{ $msg }}</h1>
+    <ul>
+        <li>{{ $fruit[0] }}</li>
+        <li>{{ $fruit[1] }}</li>
+        <li>{{ $fruit[2] }}</li>
+
+    </ul>
 </body>
 </html>
 @endsection
