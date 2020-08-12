@@ -1,3 +1,7 @@
+@extends("Layout/master")
+
+
+@section("showdata")
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -114,3 +118,5 @@
     </div>
 </body>
 </html>
+
+@endsection
