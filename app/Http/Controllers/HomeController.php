@@ -53,6 +53,7 @@ class HomeController extends Controller
     public function Complain()
     {
         $data = "Pakistan";
-        return view("Home.Complain", compact("data"));
+        $color = array("Red", "Yellow", "Orange");
+        return view("Home.Complain", compact("data", "color"));
     }
 }
