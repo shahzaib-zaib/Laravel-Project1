@@ -41,10 +41,10 @@ class HomeController extends Controller
     }
     public function About()
     {
-        $msg = "This is message from Controller";
-        $name = "Maheen";
-        $fruit = array('Apple', 'mango', 'Banana');
-        return view("Home.About", compact('msg', 'name', 'fruit'));
+        // Name Array for use show two or more tabel data from table in one view
+        $Data["sports"] = ["Cricket", "Hockey", "Football", "Tennis"];
+        $Data["color"] = ["Red", "Yellow", "Pink"];
+        return view("Home.About", $Data);
     }
     public function Contact()
     {
@@ -54,6 +54,7 @@ class HomeController extends Controller
     {
         $data = "Pakistan";
         $color = array("Red", "Yellow", "Orange");
+
         return view("Home.Complain", compact("data", "color"));
     }
 }

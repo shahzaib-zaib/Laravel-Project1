@@ -10,13 +10,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ $msg }}</h1>
-    <ul>
-        <li>{{ $fruit[0] }}</li>
-        <li>{{ $fruit[1] }}</li>
-        <li>{{ $fruit[2] }}</li>
+    <h1>Sports Array</h1>
+    @foreach($sports as $s)
+    <li>{{ $s }}</li>
+    @endforeach
 
-    </ul>
+    <hr>
+
+    <h1>Color Array</h1>
+    @foreach($color as $c)
+    <li>{{ $c }}</li>
+    @endforeach
 </body>
 </html>
 @endsection

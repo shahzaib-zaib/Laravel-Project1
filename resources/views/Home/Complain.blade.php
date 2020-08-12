@@ -74,10 +74,4 @@ $else
 
 
 
-@while(true)
-<h1>Pakistan</h1>
-@endwhile
-
-
-
 @endsection
