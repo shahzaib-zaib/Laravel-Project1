@@ -57,4 +57,8 @@ class HomeController extends Controller
 
         return view("Home.Complain", compact("data", "color"));
     }
+    public function BookTicket()
+    {
+        return view("Home.BookTicket")
+    }
 }
