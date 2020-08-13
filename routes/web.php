@@ -30,7 +30,6 @@ Route::get("/Product", "HomeController@Product");
 Route::get("/About", "HomeController@About");
 Route::get("/Contact", "HomeController@Contact");
 Route::get("/Complain", "HomeController@Complain");
-Route::post("/Booking", "HomeController@Booking");
 
 
 
